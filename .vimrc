@@ -144,8 +144,8 @@ vno <left> <Nop>
 vno <right> <Nop>
 vno <up> <Nop>
 
-let mapleader = ","
-let g:mapleader = ","
+"let mapleader = ","
+"let g:mapleader = ","
 
 """"""""nmap di, f,dT,
 """"""""nmap <C-Tab> :tabnext<CR>
