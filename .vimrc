@@ -20,8 +20,6 @@ Plugin 'vim-airline/vim-airline'    	"adds beautifull bar below
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'    	"500+ colorschemes
 Plugin 'easymotion/vim-easymotion'
-Plugin 'vimwiki/vimwiki'
-Plugin 'suan/vim-instant-markdown'
 
 call vundle#end()                   	"end Vundle
 
@@ -32,8 +30,6 @@ call vundle#end()                   	"end Vundle
 
 filetype plugin indent on				"15
 syntax on
-
-autocmd BufNewFile,BufReadPost *.md set filetype=markdown "Set .md as a markdown file format
 
 set autoread 						"Set to auto read when a file is changed from the outside
 set so=2 						"2 lines when moving vertically using j/k
@@ -116,14 +112,6 @@ nnoremap <F9> :UndotreeToggle<CR>
 """""""""Spelling Check""""
 nnoremap <F8> :set spell!<CR>
 
-
-""""""""Markdown"""""""""""
-let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
-
-
-"""""""Open Markdown""""""
-let g:instant_markdown_autostart = 0	" disable autostart
-map <leader>md :InstantMarkdownPreview<CR>
 
 "***************************************************************
 "						Mappings
