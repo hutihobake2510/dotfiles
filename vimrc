@@ -19,7 +19,7 @@ Plugin 'mbbill/undotree' 		"undo manager
 Plugin 'vim-airline/vim-airline'    	"adds beautifull bar below
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'    	"500+ colorschemes
-Plugin 'easymotion/vim-easymotion'
+"Plugin 'easymotion/vim-easymotion'
 
 call vundle#end()                   	"end Vundle
 
