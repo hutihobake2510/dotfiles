@@ -13,7 +13,7 @@ set rtp+=~/.vim/bundle/Vundle.vim   	"path to Vundle
 call vundle#begin()                 	"start Vundle
 
 Plugin 'VundleVim/Vundle.vim'       	"add plugins like this
-"Plugin 'tpope/vim-fugitive'         	"install plugins by PluginInstall
+Plugin 'tpope/vim-fugitive'         	"install plugins by PluginInstall
 Plugin 'scrooloose/nerdtree'
 Plugin 'mbbill/undotree' 		"undo manager
 Plugin 'vim-airline/vim-airline'    	"adds beautifull bar below
